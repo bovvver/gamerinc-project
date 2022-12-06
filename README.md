@@ -4,7 +4,8 @@
 </a>
 <h2>gamer-inc 🎮</h2>
 <p>
-Landing page for game dev company created using <strong>HTML</strong>,<strong> SCSS</strong> and <strong>TypeScript</strong>.
+Landing page for game dev company created using <strong>HTML</strong>,<strong> SCSS</strong> and <strong>TypeScript</strong>.<br/>
+<a href="https://memeemaster.github.io/gamerinc-project/" target="_blank">Live page</a>
 </div>
 
 ## Installation
