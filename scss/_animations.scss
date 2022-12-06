@@ -1,0 +1,21 @@
+// header arrow animation
+
+@keyframes upAndDown {
+    from {
+        transform: rotate(90deg) translateX(0);
+    }
+
+    to {
+        transform: rotate(90deg) translateX(-40%);
+    }
+}
+
+@keyframes spinx {
+    from {
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

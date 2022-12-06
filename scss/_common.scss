@@ -1,0 +1,66 @@
+@use 'colors';
+
+//common classes
+
+.main-text {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 5px colors.$black-color;
+    color: colors.$white-color;
+}
+
+.dark-text {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 5px colors.$black-color;
+    color: colors.$purple;
+}
+
+// utilities
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.spacer {
+    aspect-ratio: 960/150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.show-nav {
+    right: 0;
+}
+
+.hide-nav {
+    right: -120%;
+}
+
+.scroll-up {
+    background-color: colors.$shadow;
+}
+
+.scroll-down {
+    transform: translate3d(0, -100%, 0);
+}
+
+// swiper options
+
+:root{
+    --swiper-theme-color: #d494ff;
+}
+
+.swiper {
+    width: 60%;
+}
+
+//svg images
+
+.layer1 {
+    background-image: url(./../img//svg/layer1.svg);
+}
+
+.layer2 {
+    background-image: url(./../img//svg/layer2.svg);
+}

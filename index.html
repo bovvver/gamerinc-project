@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/img/icons/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamer Inc.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e92bc9f39f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dist/app.js" defer type="module"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="nav main-text">
+      <p class="nav__title">Gamer Inc.</p>
+      <div class="nav__block">
+        <a href="#home">home</a>
+        <a href="#about-us">about us</a>
+        <a href="#offer">offer</a>
+        <a href="#crew">crew</a>
+        <a href="#contact">contatct</a>
+      </div>
+      <button class="nav__mobile-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="nav-mobile hide-nav main-text">
+      <i class="nav-mobile__xmark fa-solid fa-xmark"></i>
+      <div class="nav-mobile__block">
+        <a href="#home" class="mobile-link">home</a>
+        <a href="#about-us" class="mobile-link">about us</a>
+        <a href="#offer" class="mobile-link">offer</a>
+        <a href="#crew" class="mobile-link">crew</a>
+        <a href="#contact" class="mobile-link">contatct</a>
+      </div>
+    </div>
+    <div class="header" id="home">
+      <div class="header__box main-text">
+        <h1 class="header__box-title">Gamer Inc.</h1>
+        <p class="header__box-subtitle">Games made with love.</p>
+      </div>
+      <a href="#about-us"><i class="header__arrow fa-solid fa-forward"></i></a>
+    </div>
+    <div class="spacer layer1"></div>
+    <div class="about-us dark-text wrapper" id="about-us">
+      <h2 class="about-us__title">about us</h2>
+      <p class="about-us__desc">
+        Gamer Inc. is a company with 20 years of tradition. We hire the best
+        employees who love both playing and creating video games! Take advantage
+        of our services and we will create a "game made with love" for you.
+      </p>
+    </div>
+    <div class="spacer layer2"></div>
+    <div class="offer main-text" id="offer">
+      <h2 class="offer__title">offer</h2>
+      <p class="offer__subtitle">Choose the best offer for you.</p>
+      <div class="offer__block wrapper">
+        <div class="offer__block-card">
+          <p class="offer__block-card-title">basic</p>
+          <p class="offer__block-card-subtitle">For smaller projects.</p>
+          <p class="offer__block-card-price">$20 000</p>
+          <p class="offer__block-card-bonus">+full support for 2 months</p>
+          <p class="offer__block-card-bonus">-no service</p>
+          <button class="offer__block-card-btn">get started</button>
+        </div>
+        <div class="offer__block-card offer__block-card">
+          <p class="offer__block-card-title">standard</p>
+          <p class="offer__block-card-subtitle">
+            Great experience, the best choice.
+          </p>
+          <p class="offer__block-card-price">$50 000</p>
+          <p class="offer__block-card-bonus">+full support for 6 months</p>
+          <p class="offer__block-card-bonus">+full service for 6 months</p>
+          <button class="offer__block-card-btn offer__block-card-btn--best">
+            get started
+          </button>
+        </div>
+        <div class="offer__block-card">
+          <p class="offer__block-card-title">super</p>
+          <p class="offer__block-card-subtitle">For large projects.</p>
+          <p class="offer__block-card-price">$100 000+</p>
+          <p class="offer__block-card-bonus">+full support for 1 year</p>
+          <p class="offer__block-card-bonus">+full service for 1 year</p>
+          <button class="offer__block-card-btn">get started</button>
+        </div>
+      </div>
+      <p class="offer__message">
+        Select your plan or <a href="#contact">contact us</a> to discuss the
+        details.
+      </p>
+    </div>
+    <div class="spacer layer1"></div>
+    <div class="crew dark-text" id="crew">
+      <h2 class="crew__title">crew</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide crew__card">
+            <div class="crew__card-img crew__card-img--adam"></div>
+            <p class="crew__card-name">Adam</p>
+            <div class="crew__card-role">CEO</div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="swiper-slide crew__card">
+            <p class="crew__card-name">Lily</p>
+            <div class="crew__card-img crew__card-img--lily"></div>
+            <div class="crew__card-role">HR</div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="swiper-slide crew__card">
+            <p class="crew__card-name">Patrick</p>
+            <div class="crew__card-img crew__card-img--patrick"></div>
+            <div class="crew__card-role crew__card-role--smaller">
+              UX Designer
+            </div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="swiper-slide crew__card">
+            <p class="crew__card-name">Alexandra</p>
+            <div class="crew__card-img crew__card-img--alexandra"></div>
+            <div class="crew__card-role crew__card-role--smaller">
+              UX Designer
+            </div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="swiper-slide crew__card">
+            <p class="crew__card-name">Richard</p>
+            <div class="crew__card-img crew__card-img--richard"></div>
+            <div class="crew__card-role crew__card-role--smaller">
+              UI Designer
+            </div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="swiper-slide crew__card">
+            <p class="crew__card-name">Anna</p>
+            <div class="crew__card-img crew__card-img--anna"></div>
+            <div class="crew__card-role crew__card-role--smaller">
+              UI Designer
+            </div>
+            <p class="crew__card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              possimus rerum at quae reiciendis eos!
+            </p>
+            <div class="crew__card-socials">
+              <i class="fa-brands fa-twitter"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="spacer layer2"></div>
+    <div class="contact dark-text" id="contact">
+      <h2 class="contact__title">contact</h2>
+      <div class="contact__container wrapper">
+        <div class="contact__container-block">
+          <h2 class="contact__container-block-title">headquarters in london</h2>
+          <p class="contact__container-block-desc">
+            38 Chester Way, London SE11 4UR
+          </p>
+          <p class="contact__container-block-desc">
+            <i class="fa-solid fa-mobile-screen"></i> +44 00 0000 0000
+          </p>
+          <p class="contact__container-block-desc">
+            <i class="fa-solid fa-envelope"></i> gamersincuk@mail.com
+          </p>
+        </div>
+        <div class="contact__container-block">
+          <h2 class="contact__container-block-title">headquarters in warsaw</h2>
+          <p class="contact__container-block-desc">
+            ul. Chełmska 20, 00-724 Warsaw
+          </p>
+          <p class="contact__container-block-desc">
+            <i class="fa-solid fa-mobile-screen"></i> +48 000 000 000
+          </p>
+          <p class="contact__container-block-desc">
+            <i class="fa-solid fa-envelope"></i> gamersinc@mail.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; <span class="footer-year"></span> | Gamer Inc.</p>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./dist/swiper.js"></script>
+  </body>
+</html>
